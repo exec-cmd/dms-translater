@@ -1,0 +1,17 @@
+{
+    "id": "dmsTranslate",
+    "name": "Translate",
+    "description": "Top bar translator using Google Cloud Translation, DeepL or OpenRouter",
+    "version": "1.0.0",
+    "author": "exec-cmd",
+    "license": "MIT",
+    "icon": "translate",
+    "type": "widget",
+    "component": "./Widget.qml",
+    "settings": "./Settings.qml",
+    "requires_dms": ">=1.6.3",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}
