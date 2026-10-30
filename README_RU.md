@@ -66,7 +66,7 @@ git pull && ./install.sh   # с --link не нужно, достаточно п�
 ## Разработка
 
 ```bash
-node --test tests/              # сборка запросов и разбор ответов
+node --test tests/*.test.mjs              # сборка запросов и разбор ответов
 shellcheck install.sh uninstall.sh
 ./install.sh --link && dms ipc call plugins reload dmsTranslate
 ```

@@ -20,7 +20,7 @@ Read the relevant file and test before changing behavior. Prefer the smallest ch
 ## Development commands
 
 ```bash
-node --test tests/
+node --test tests/*.test.mjs
 shellcheck install.sh uninstall.sh
 ./install.sh --link
 dms ipc call plugins reload dmsTranslate

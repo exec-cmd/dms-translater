@@ -66,7 +66,7 @@ git pull && ./install.sh   # not needed with --link; just reload
 ## Development
 
 ```bash
-node --test tests/              # request building and response parsing
+node --test tests/*.test.mjs              # request building and response parsing
 shellcheck install.sh uninstall.sh
 ./install.sh --link && dms ipc call plugins reload dmsTranslate
 ```
