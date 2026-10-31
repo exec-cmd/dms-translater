@@ -4,6 +4,8 @@
 
 Небольшой виджет-переводчик для верхней панели [DankMaterialShell](https://github.com/duxlabs-dev/dux-shell) 1.6.3+ и Dux Shell 2.x. Нажмите на иконку, введите или вставьте текст, нажмите Enter. Работает с Google Cloud Translation, DeepL или любой моделью OpenRouter. Чистый QML: без Python и дополнительных пакетов.
 
+![Окно перевода из верхней панели](docs/popout.png)
+
 ## Требования
 
 - DankMaterialShell 1.6.3 или новее либо Dux Shell 2.x (проверено на niri)

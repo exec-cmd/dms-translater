@@ -4,6 +4,8 @@ English | [Русский](README_RU.md)
 
 A small translator widget for the top bar of [DankMaterialShell](https://github.com/duxlabs-dev/dux-shell) 1.6.3+ and Dux Shell 2.x. Click the icon, type or paste text, press Enter. It works with Google Cloud Translation, DeepL or any OpenRouter model. Pure QML: no Python, no extra packages.
 
+![The Translate popout in the top bar](docs/popout.png)
+
 ## Requirements
 
 - DankMaterialShell 1.6.3 or newer, or Dux Shell 2.x (tested on niri)
